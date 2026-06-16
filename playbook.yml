@@ -7,7 +7,7 @@
   - name: Copy WAR file to Tomcat
   
     copy:
-  	src: "/var/snap/jenkins/5042/workspace/maven112/maven112.war"
+  	src: "/var/snap/jenkins/5042/workspace/target/maven112/maven112.war"
   	
   	dest: "/opt/tomcat/webapps/maven112.war"
   	
