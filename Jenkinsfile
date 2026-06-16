@@ -18,7 +18,7 @@ pipeline{
 		{
 			steps
 			{
-				git branch: 'main', url: 'https://github.com/Krishmeet11/w112.git'
+				git branch: 'main', url: 'https://github.com/Krishmeet11/w11.git'
 			}
 		}
 		stage('Build)
